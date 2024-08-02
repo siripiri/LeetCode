@@ -8,4 +8,5 @@ public interface Traversal {
     List<Integer> preOrder(TreeNode root);
     List<Integer> inOrder(TreeNode root);
     List<Integer> postOrder(TreeNode root);
+    List<Integer> levelOrder(TreeNode root);
 }
