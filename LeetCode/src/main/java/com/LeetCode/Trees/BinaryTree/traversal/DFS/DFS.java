@@ -1,12 +1,11 @@
-package com.LeetCode.Trees.BinaryTree.Traversal;
+package com.LeetCode.Trees.BinaryTree.traversal.DFS;
 
 import java.util.List;
 
 import com.LeetCode.Trees.BinaryTree.TreeNode;
 
-public interface Traversal {
+public interface DFS {
     List<Integer> preOrder(TreeNode root);
     List<Integer> inOrder(TreeNode root);
     List<Integer> postOrder(TreeNode root);
-    List<Integer> levelOrder(TreeNode root);
 }

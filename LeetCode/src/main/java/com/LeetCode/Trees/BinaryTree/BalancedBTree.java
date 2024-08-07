@@ -1,5 +1,7 @@
 package com.LeetCode.Trees.BinaryTree;
 
+import com.LeetCode.Trees.BinaryTree.basics.Height;
+
 public class BalancedBTree {
     private final Height height;
 

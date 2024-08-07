@@ -1,7 +1,9 @@
-package com.LeetCode.Trees.BinaryTree;
+package com.LeetCode.Trees.BinaryTree.basics;
 
 import java.util.LinkedList;
 import java.util.Queue;
+
+import com.LeetCode.Trees.BinaryTree.TreeNode;
 
 public class Height {
     public int height(TreeNode root) {

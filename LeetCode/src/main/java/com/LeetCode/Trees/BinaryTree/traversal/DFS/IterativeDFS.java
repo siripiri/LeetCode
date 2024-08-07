@@ -1,9 +1,7 @@
-package com.LeetCode.Trees.BinaryTree.Traversal;
+package com.LeetCode.Trees.BinaryTree.traversal.DFS;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.Queue;
 import java.util.Stack;
 
 import org.slf4j.Logger;
@@ -12,9 +10,9 @@ import org.slf4j.LoggerFactory;
 import com.LeetCode.Trees.BinaryTree.Construct;
 import com.LeetCode.Trees.BinaryTree.TreeNode;
 
-public class IterativeTraversal implements Traversal {
+public class IterativeDFS implements DFS {
 
-    private static final Logger log = LoggerFactory.getLogger(IterativeTraversal.class);
+    private static final Logger log = LoggerFactory.getLogger(IterativeDFS.class);
 
     @Override
     public List<Integer> preOrder(TreeNode root) {
@@ -79,31 +77,9 @@ public class IterativeTraversal implements Traversal {
         return list;
     }
 
-    @Override
-    public List<Integer> levelOrder(TreeNode root) {
-        List<Integer> list = new ArrayList<>();
-        if(root == null)
-            return null;
-        Queue<TreeNode> queue = new LinkedList<>();
-        queue.add(root);
-        list.add(root.data);
-        while(!queue.isEmpty()) {
-            TreeNode node = queue.remove();
-            if(node.left != null) {
-                list.add(node.left.data);
-                queue.add(node.left);
-            }
-            if(node.right != null) {
-                list.add(node.right.data);
-                queue.add(node.right);
-            }
-        }
-        return list;
-    }
-
     public static void main(String[] args) {
         Construct con = new Construct();
-        Traversal t = new IterativeTraversal();
+        DFS t = new IterativeDFS();
 
         int[] tree = new int[]{4,2,5,3,-1,7,6,-1,9,-1,-1,8,-1,1};
         TreeNode root = con.constructUsingArray(tree);
