@@ -1,0 +1,23 @@
+Sliding Window:
+    a) Pattern 1: (constant window)
+        ☐ Sliding window Maximum
+
+    b) Pattern 2: (Expand and shrink)
+        ☐ Minimium size subarray Sum
+        ☐ Longest Substring without repeating charater
+        ☐ Longest repeating charater Substring
+        ☐ No of subarray containing all 3 characters
+        ☐ Minimium window Substring
+        ☐ Substring with concatenation of all words
+
+    c) Pattern 3: (Expand and shrink, 1 Loop)
+        ☐ Max consecutive ones - III
+        ☐ Max Average subarray
+
+    d) Pattern 4: (No/count of subarray with where condition)
+        ☐ Binary Subarray with Sum
+        ☐ Count no of nice subarray
+        ☐ Subarray with k different digits
+
+    e) Pattern 5: (Fixed Window)
+        ☐ maximium points you can obtain from cards

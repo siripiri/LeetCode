@@ -1,0 +1,94 @@
+Binary Tree:
+
+    Traversal:
+        ✔ In order @done (20/08/2024, 03:00:47)
+        ✔ Pre order @done (20/08/2024, 03:00:48)
+        ✔ Post order @done (20/08/2024, 03:00:48)
+        ✔ Level Order Traversal @done (20/08/2024, 03:00:49)
+    
+    Depth Problems:
+        ✔ 104. Maximum Depth of Binary Tree @done (20/08/2024, 16:47:18)
+        ✔ 111. Minimum Depth of Binary Tree @done (20/08/2024, 17:55:09)
+        ☐ Maximum Depth of N-ary Tree
+        ✔ 110. Balanced Binary Tree @done (25/08/2024, 00:12:46)
+    
+    DFS Traversal Problems:
+        ✔ 100. Same Tree @done (25/08/2024, 02:20:44)
+        ✔ 101. Symmetric Tree @done (25/08/2024, 06:55:17)
+        ✔ 112. Path Sum @done (25/08/2024, 07:07:53)
+        ✔ 113. Path Sum II @done (25/08/2024, 07:44:21)
+        ✔ 124. Binary Tree Maximum Path Sum @done (25/08/2024, 08:08:39)
+        ✔ 129. Sum Root to Leaf Numbers @done (25/08/2024, 08:29:04)
+        ✔ 257. Binary Tree Paths @done (25/08/2024, 08:29:40)
+        ☐ 437. Path Sum III --- (REQ: PREFIX SUM)
+        ✔ 543. Diameter of Binary Tree @done (25/08/2024, 10:47:16)
+        ✔ 965. Univalued Binary Tree @done (25/08/2024, 10:55:46)
+    
+    Root to leaf path Problem:
+        ☐ 988. Smallest String Starting From Leaf
+        ☐ Sum of Root To Leaf Binary Numbers
+        ☐ Insufficient Nodes in Root to Leaf Paths
+        ☐ Pseudo-Palindromic Paths in a Binary Tree
+    
+    Level Order Traversal Problems:
+        ☐ Smallest Subtree with all the Deepest Nodes
+        ☐ Path In Zigzag Labelled Binary Tree
+        ☐ Maximum Level Sum of a Binary Tree
+        ☐ Sum of Nodes with Even-Valued Grandparent
+        ☐ Frog Position After T Seconds
+        ☐ Even Odd Tree
+        ☐ Binary Tree Level Order Traversal
+        ☐ Binary Tree Zigzag Level Order Traversal
+        ☐ Binary Tree Level Order Traversal II
+        ☐ Binary Tree Right Side View
+        ☐ N-ary Tree Level Order Traversal
+        ☐ Find Largest Value in Each Tree Row
+        ☐ Add One Row to Tree
+        ☐ Average of Levels in Binary Tree
+        ☐ Check Completeness of a Binary Tree
+        ☐ Maximum Width of Binary Tree
+    
+    Ancestor Problems:
+        ☐ Lowest Common Ancestor of a Binary Tree
+        ☐ Maximum Difference Between Node and Ancestor
+        ☐ Lowest Common Ancestor of Deepest Leaves
+        ☐ Kth Ancestor of a Tree Node
+    
+    Node Deletions:
+        ☐ Delete Nodes And Return Forest
+    
+    Distance Between nodes problems:
+        ☐ Sum of Distances in Tree
+        ☐ All Nodes Distance K in Binary Tree
+    
+    
+    Flipping:
+        ☐ Flip Equivalent Binary Trees
+        ☐ Flip Binary Tree To Match Preorder Traversal
+    
+    Serialize and Deserialize Problems:
+        ☐ Serialize and Deserialize Binary Tree
+        ☐ Verify Preorder Serialization of a Binary Tree
+    
+    Leafs related Problem:
+        ☐ Sum of Left Leaves
+        ☐ Leaf-Similar Trees
+        ☐ Deepest Leaves Sum
+        ☐ Delete Leaves With a Given Value
+    
+    Relation in a binary Tree:
+        ☐ Cousins in Binary Tree
+    
+    Counting nodes:
+        ☐ Count Good Nodes in Binary Tree
+        ☐ Number of Nodes in the Sub-Tree With the Same Label
+        ☐ Number of Good Leaf Nodes Pairs
+    
+    Tree construction Problems:
+        ☐ Construct Binary Tree from Preorder and Inorder Traversal
+        ☐ Construct Binary Tree from Postorder and Inorder Traversa
+        ☐ Construct Binary Tree from Preorder and Postorder Traversal
+        ☐ All Possible Full Binary Trees
+        ☐ Recover a Tree From Preorder Traversal
+        ☐ Validate Binary Tree Nodes
+        ☐ Number Of Ways To Reconstruct A Tree

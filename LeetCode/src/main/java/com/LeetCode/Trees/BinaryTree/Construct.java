@@ -5,7 +5,6 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-import com.LeetCode.Trees.BinaryTree.basics.Height;
 
 public class Construct {
     public TreeNode constructUsingArray(int[] arr) {
@@ -88,10 +87,15 @@ public class Construct {
             this.col = col;
         }
     }
+    
+    private int maxDepth(TreeNode node) {
+        if(node == null)
+            return 0;
+        return Math.max(maxDepth(node.left), maxDepth(node.right)) + 1;
+    }
 
     private List<List<String>> printBinaryTree(TreeNode node) {
-        Height h = new Height();
-        int height = h.heightRecursive(node);
+        int height = maxDepth(node);
         int col = (int) Math.pow(2.0, height)-1;
         int row = height;
         List<List<String>> list= new ArrayList<>();
